@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>калькулятор</title>
+    <link href="style.css" rel="stylesheet"/>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <p id="result" class="res"></p>
+
+<tr>
+    <td>|num1<input id="num1" /></td>
+    <td>|num2<input id="num2" /></td>
+</tr>
+    <div id="operator_btns">
+    <table>
+    <tr> 
+        <td> <button id="plus" onclick="op='+'" class="operator_btns">+</button> </td>
+        <td> <button id="minus" onclick="op='-'" class="operator_btns">-</button> </td>
+        <td> <button id="times" onclick="op='*'" class="operator_btns">x</button> </td>
+        <td> <button id="divide" onclick="op='/'" class="operator_btns">:</button> </td>
+        
+    </tr>
+</div>
+<div id="number_btns">
+    <tr>
+        <td> <button id="7" onclick="op='7'" class="number_btns">7</button> </td>
+        <td> <button id="8" onclick="op='8'" class="number_btns">8</button> </td>
+        <td> <button id="9" onclick="op='9'" class="number_btns">9</button> </td>
+    </tr>
+    <tr>
+        <td> <button id="4" onclick="op='4'" class="number_btns">4</button> </td>
+        <td> <button id="5" onclick="op='5'" class="number_btns">5</button> </td>
+        <td> <button id="6" onclick="op='6'" class="number_btns">6</button> </td>
+    </tr>
+    <tr>
+        <td> <button id="1" onclick="op='1'" class="number_btns">1</button> </td>
+        <td> <button id="2" onclick="op='2'" class="number_btns">2</button> </td>
+        <td> <button id="3" onclick="op='3'" class="number_btns">3</button> </td>
+    </tr>
+    <tr>
+        <td> <button id="0" onclick="op='0'" class="number_btns">0</td>
+        <td><button onclick="func()" class="resbut">Посчитать</button></td>
+    </tr>
+</table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+body {
+    width: 250px;
+margin: 400px auto;
+background-color: lightblue ;
+}
+
+.number_btns {
+width: 100px;
+height: 50px;
+background-color:red;
+}
+
+.rebut{
+    width: 50px;
+    height: 50px;
+    background-color: #dbac13;
+}
+
+.operator_btns{
+    width:100px;
+    height:50px;
+}
+
+.res{
+    color:gray;
+    font-size: 60px;
+}
